@@ -1,0 +1,130 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html { font-size: 62.5% }
+
+html, body{
+  font-family: 'Inconsolata', monospace;;
+}
+
+h1{
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+h2{
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.intro-text{
+  font-size: 2rem;
+}
+
+p{
+  font-size: 2rem;
+}
+
+/* -------------- */
+
+.contenedor-nav {
+	margin: auto;
+	max-width: 1600px;
+	overflow: auto;
+	padding: 0 20px;
+}
+
+.contenedor {
+	margin: auto;
+	max-width: 1000px;
+	overflow: auto;
+	padding: 0 20px;
+}
+
+/* Barra Navegacion */
+
+.navbar{
+  /*position: sticky;*/
+  width: 100%;
+  top: 0;
+  overflow: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+  background-color: #e4c69f;
+}
+
+/* Barra Navegacion logo*/
+
+.navbar .logo {
+  float: left;
+}
+
+.navbar .logo img {
+  width: 75px;
+}
+
+/* Barra Navegacion menu*/
+
+.navbar .menu {
+  float: right;
+  list-style: none;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.navbar .menu li {
+  float: left;
+}
+
+.navbar .menu li a{
+  display: block;
+  padding: 25px 20px;
+  text-align: center;
+  
+}
+
+.navbar .menu li a:hover{
+  text-decoration: underline;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: black;
+}
+
+
+/* INTRODUCCION */
+
+.intro{
+  height: 90vh;
+  background-color: antiquewhite;
+  padding: 150px 0px;
+  
+}
+
+.intro-text {
+  margin-left: 4px;
+  margin-bottom: 20px;
+}
+
+.intro h2 {
+  margin-top: 10px;
+  max-width: 750px;
+}
+
+.intro .parrafo{
+  margin-top: 20px;
+  max-width: 540px;
+}
+
+
+
+
+
+
+
+
