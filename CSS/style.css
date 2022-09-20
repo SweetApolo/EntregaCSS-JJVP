@@ -1,52 +1,61 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html { font-size: 62.5% }
-
-html, body{
-  font-family: 'Inconsolata', monospace;;
+html {
+  font-size: 62.5%
 }
 
-h1{
+html,
+body {
+  font-family: 'Inconsolata', monospace;
+  ;
+}
+
+h1 {
   font-size: 6rem;
   font-weight: bold;
 }
 
-h2{
+h2 {
   font-size: 6rem;
   font-weight: bold;
 }
 
-.intro-text{
+.intro-text {
   font-size: 2rem;
 }
 
-p{
+p {
   font-size: 2rem;
+  margin: 0px 0px 15px;
+}
+
+p > span{
+  font-weight: bold;
 }
 
 /* -------------- */
 
 .contenedor-nav {
-	margin: auto;
-	max-width: 1600px;
-	overflow: auto;
-	padding: 0 20px;
+  margin: auto;
+  max-width: 1600px;
+  overflow: auto;
+  padding: 0 20px;
 }
 
 .contenedor {
-	margin: auto;
-	max-width: 1000px;
-	overflow: auto;
-	padding: 0 20px;
+  margin: auto;
+  max-width: 1000px;
+  overflow: auto;
+  padding: 0 20px;
 }
 
 /* Barra Navegacion */
 
-.navbar{
+.navbar {
   /*position: sticky;*/
   width: 100%;
   top: 0;
@@ -80,18 +89,18 @@ p{
   float: left;
 }
 
-.navbar .menu li a{
+.navbar .menu li a {
   display: block;
   padding: 25px 20px;
   text-align: center;
-  
+
 }
 
-.navbar .menu li a:hover{
+.navbar .menu li a:hover {
   text-decoration: underline;
 }
 
-.navbar a{
+.navbar a {
   text-decoration: none;
   color: black;
 }
@@ -99,11 +108,11 @@ p{
 
 /* INTRODUCCION */
 
-.intro{
-  height: 90vh;
+.intro {
+
   background-color: antiquewhite;
-  padding: 150px 0px;
-  
+  padding-top: 230px;
+  padding-bottom: 280px;
 }
 
 .intro-text {
@@ -116,15 +125,72 @@ p{
   max-width: 750px;
 }
 
-.intro .parrafo{
+.intro .parrafo {
   margin-top: 20px;
   max-width: 540px;
 }
 
+/* ABOUT */
 
+.about {
+  background-color: rgb(248, 240, 230);
+  padding: 60px 0px;
+}
 
+.heading-text {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  margin: 10px 0px 40px;
+  width: 100%;
+  font-size: 2rem;
+  white-space: nowrap;
+}
 
+.heading-text::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: -1px;
+  width: 300px;
+  height: 3px;
+  margin-left: 20px;
+  background-color: rgb(172, 171, 169);
+}
 
+.sobremi{
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 50px;
+}
+
+.about-foto img{
+  width: 250px;
+}
+
+.herramientas{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+
+}
+
+.herramientas li{
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  font-size: 1.7rem;
+  list-style: none;
+}
+
+.herramientas li::before{
+  content: "▹";
+  position: absolute;
+  left: 0px;
+  color: black;
+  font-size: 1.7rem;
+ 
+}
 
 
 
