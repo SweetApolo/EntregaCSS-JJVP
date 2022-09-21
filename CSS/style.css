@@ -112,7 +112,7 @@ p > span{
 
 /* INTRODUCCION */
 
-.intro {
+#intro {
 
   background-color: antiquewhite;
   padding-top: 230px;
@@ -136,7 +136,7 @@ p > span{
 
 /* ABOUT */
 
-.about {
+#about {
   background-color: rgb(248, 240, 230);
   padding: 200px 0px;
 }
@@ -198,7 +198,7 @@ p > span{
 
 /* PORTFOLIO */
 
-.portfolio {
+#portfolio {
   background-color: antiquewhite;
   padding: 200px 0px;
 }
@@ -220,6 +220,28 @@ p > span{
 
 .portfolio-box h4{
   padding: 20px;
+}
+
+/* CONTACTO */
+
+#contacto {
+  background-color:  rgb(248, 240, 230);
+  padding: 200px 0px;
+}
+
+.contact {
+  align-items: center;
+
+}
+
+.contact img {
+  width: 200px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: antiquewhite;
 }
 
 
